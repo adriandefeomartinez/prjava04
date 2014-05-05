@@ -32,7 +32,9 @@ public class Prjava04 {
             System.out.println("hostname=" + hostname);
 
             System.out.println("Nom de l'usuari: " + System.getProperty("user.name"));
-
+            
+            System.out.println("Carpeta Personal: " + System.getProperty("user.home"));
+            System.out.println("Sistema operatiu: " + System.getProperty("os.name"));
         } catch (IOException e) {
             e.printStackTrace();
         }
